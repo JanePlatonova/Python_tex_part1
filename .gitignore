@@ -1,0 +1,39 @@
+# --- Вспомогательные файлы компиляции TeX / LaTeX ---
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.sbm
+*.sym
+*.toc
+*.synctex.gz
+*.synctex(busy)
+
+# --- Файлы предпросмотра и временные файлы IDE (Overleaf, TeXStudio, VS Code) ---
+.vscode/
+.idea/
+*.bak
+*.sav
+*.tmp
+
+# --- Скомпилированный результат ---
+# Раскомментируй строку ниже, если НЕ хочешь хранить итоговый PDF на GitHub:
+*.pdf
+
+# --- Системные файлы ---
+.DS_Store
+Thumbs.db
