@@ -14,6 +14,10 @@
 \usepackage{algorithm}
 \usepackage{algorithmic}
 
+
+%tabularx, бо він сам розподіляє простір і не дає таблиці «вилазити» за поля.
+\usepackage{tabularx}
+
 % 3, 4. ПОЛЯ ТА РОЗМІР: Встановлено поля 2 см та розмір шрифту 14 пт (для KOMA-script)
 \KOMAoptions{fontsize=14pt}
 \usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
@@ -200,6 +204,9 @@ autooneside
 \usepackage{tikz}
 \usepackage{pgfplots}
 
+
+
+
 \usepackage{hyperref}
 \hypersetup{
 	pdftitle={Конспект лекцій}, % Змінено заголовок
@@ -340,10 +347,10 @@ autooneside
 	% Вміст із файлу l1.tex:
 %	\include{chap1}
 %	\include{chap2}
-%	\include{l1}
-	\include{chap4}
-	\include{if}
-%	\include{for}
+	\include{l1}
+%	\include{chap4}
+%	\include{if}
+	\include{for}
 %	\include{while}
 	
 	% === СПИСОК ЛІТЕРАТУРИ ===

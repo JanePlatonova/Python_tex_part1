@@ -243,6 +243,30 @@ print(round(3.0254))   # 3
 	\begin{py}{Приклад}
 print(round(3.0254, 2))   # 3.03
 	\end{py}
+	
+	
+	\section{Оператори інкременту та особливості \texttt{float}}
+	
+	У Python відсутні оператори \texttt{++} та \texttt{--}. Замість них використовуються комбіновані оператори присвоєння:
+	\begin{itemize}
+		\item \texttt{x += 1} замість \texttt{x = x + 1}
+		\item \texttt{x -= 1} замість \texttt{x = x - 1}
+		\item \texttt{x *= 2} замість \texttt{x = x * 2}
+	\end{itemize}
+	
+	\begin{tcolorbox}[colback=yellow!10!white,colframe=orange,title=\textbf{Обережно з дійсними числами (float)!},fonttitle=\sffamily\bfseries]
+		Числа з плаваючою крапкою зберігаються в пам'яті комп'ютера у двійковій системі з обмеженою точністю (53 біти). Через це обчислення можуть містити незначну похибку:
+	
+0.1 + 0.1 + 0.1 буде  дорівнювати
+0.30000000000000004
+
+		Для порівняння дійсних чисел завжди використовуйте функцію \texttt{math.isclose(a, b)} або порівняння з точністю $\varepsilon$: \texttt{abs(a - b) < 1e-9}.
+	\end{tcolorbox}
+	
+	\vspace{0.3cm}
+	
+	
+	
 	\section*{Контрольні питання до глави 3}
 	
 	\begin{enumerate}
