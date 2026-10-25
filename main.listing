@@ -1,10 +1,18 @@
-a = int(input("a = "))
-b = int(input("b = "))
-
-while a > 0 and b > 0:
-    if a > b:
-        a %= b
-    else:
-        b %= a
-
-print("НСД =", a + b)
+s=input("Введіть пору року")
+if s=="зима":
+    print("грудень")
+    print("січень")
+    print("лютий")
+elif s=="весна":
+    print("березень")
+    print("квітень")
+    print("травень")
+elif s=="літо":
+    print("червень")
+    print("липень")
+    print("серпень")
+else:
+    print("вересень")
+    print("жовтень ")
+    print("листопад")
+print ("До побачення")
