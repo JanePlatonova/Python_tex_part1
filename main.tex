@@ -1,4 +1,4 @@
-\documentclass{scrreprt} % Рекомендований клас для навчальних видань
+\documentclass[a4paper]{scrreprt} % Рекомендований клас для навчальних видань
 
 % lecture_onu.sty
 % Стильовий файл, адаптований до вимог ОНУ (14 кегель, 1.5 інтервал, поля 2 см)
@@ -9,7 +9,7 @@
 \usepackage{ragged2e}
 \usepackage{cmap}
 \usepackage[ukrainian]{babel}
-\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm, headheight=21pt]{geometry}
+
 % 1. МОВА: Встановлено українську мову
 \usepackage{algorithm}
 \usepackage{algorithmic}
@@ -339,12 +339,16 @@ autooneside
 	
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
 	
-	% === ЗМІСТ ===
-	\tableofcontents
+	
 	
 	
 	% === ОСНОВНИЙ ТЕКСТ ЛЕКЦІЇ ===
 	% Вміст із файлу l1.tex:
+	\include{titul12}
+	% === ЗМІСТ ===
+	\tableofcontents
+	
+	
 	\include{chap1}
 	\include{chap2}
 	\include{l1}
