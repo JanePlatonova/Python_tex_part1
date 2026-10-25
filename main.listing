@@ -1,7 +1,10 @@
-for i in range(5):
-    val = int(input("Введіть число "))
-    if val < 0:
-        print(f"Знайдено перше від'ємне число: {val}")
-        break
-else:
-    print("Усі введені числа є невід'ємними.")
+a = int(input("a = "))
+b = int(input("b = "))
+
+while a > 0 and b > 0:
+    if a > b:
+        a %= b
+    else:
+        b %= a
+
+print("НСД =", a + b)
