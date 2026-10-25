@@ -11,7 +11,8 @@
 \usepackage[ukrainian]{babel}
 \usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm, headheight=21pt]{geometry}
 % 1. МОВА: Встановлено українську мову
-c
+\usepackage{algorithm}
+\usepackage{algorithmic}
 
 % 3, 4. ПОЛЯ ТА РОЗМІР: Встановлено поля 2 см та розмір шрифту 14 пт (для KOMA-script)
 \KOMAoptions{fontsize=14pt}
@@ -109,6 +110,14 @@ autooneside
 \tcbuselibrary{skins}
 \tcbuselibrary{minted}
 \tcbuselibrary{theorems}
+
+\titleformat{\subsection}[block] % block = окремий рядок
+{\bfseries\normalsize}         % жирний + стандартний розмір
+{}                             % номер (порожньо для subsection*)
+{0pt}                          % відступ
+{}   
+
+
 
 % Оформлення блоків (прикладів, задач) залишено.
 \newtcolorbox[auto counter, number within=chapter]{pr}[1]{
@@ -329,7 +338,7 @@ autooneside
 	
 	% === ОСНОВНИЙ ТЕКСТ ЛЕКЦІЇ ===
 	% Вміст із файлу l1.tex:
-
+	\include{chap1}
 	\include{l1}
 	\include{if}
 	\include{for}
