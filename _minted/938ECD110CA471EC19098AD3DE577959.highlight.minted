@@ -1,0 +1,35 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{())}  \PYG{c+c1}{\PYGZsh{} Зчитуємо перше ціле число з клавіатури}
+\PYG{n}{k} \PYG{o}{=} \PYG{l+m+mi}{0}             \PYG{c+c1}{\PYGZsh{} Лічильник знайдених простих чисел}
+\PYG{n}{S} \PYG{o}{=} \PYG{l+m+mi}{0}             \PYG{c+c1}{\PYGZsh{} Змінна для збереження суми простих чисел}
+
+\PYG{c+c1}{\PYGZsh{} Цикл триває, поки користувач не введе 0}
+\PYG{c+c1}{\PYGZsh{} ( 0 \PYGZhy{} ознака кінця введення)}
+\PYG{k}{while} \PYG{n}{x} \PYG{o}{!=} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{n}{is\PYGZus{}prime} \PYG{o}{=} \PYG{k+kc}{True}  \PYG{c+c1}{\PYGZsh{} Прапорець: припускаємо,}
+                     \PYG{c+c1}{\PYGZsh{}  що число x є простим}
+    \PYG{k}{if} \PYG{n}{x} \PYG{o}{\PYGZlt{}=} \PYG{l+m+mi}{1}\PYG{p}{:}
+        \PYG{n}{is\PYGZus{}prime} \PYG{o}{=} \PYG{k+kc}{False}  \PYG{c+c1}{\PYGZsh{} Числа \PYGZlt{}= 1 не є простими}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{c+c1}{\PYGZsh{} Натсупний цикл перевіряє наявність дільників}
+        \PYG{c+c1}{\PYGZsh{} від 2 до  кореня з x включно}
+        \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{x}\PYG{o}{**}\PYG{l+m+mf}{0.5}\PYG{p}{)} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{):}
+            \PYG{k}{if} \PYG{n}{x} \PYG{o}{\PYGZpc{}} \PYG{n}{i} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Якщо x ділиться на i без остачі}
+                \PYG{n}{is\PYGZus{}prime} \PYG{o}{=} \PYG{k+kc}{False}  \PYG{c+c1}{\PYGZsh{} то воно не просте, і далі}
+                \PYG{k}{break}             \PYG{c+c1}{\PYGZsh{} можна не перевіряти}
+
+    \PYG{c+c1}{\PYGZsh{} Якщо число виявилося простим}
+    \PYG{k}{if} \PYG{n}{is\PYGZus{}prime}\PYG{p}{:}
+        \PYG{n}{k} \PYG{o}{+=} \PYG{l+m+mi}{1}  \PYG{c+c1}{\PYGZsh{} Збільшуємо кількість простих чисел на 1}
+        \PYG{n}{S} \PYG{o}{+=} \PYG{n}{x}  \PYG{c+c1}{\PYGZsh{} Додаємо число до загальної суми}
+
+    \PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{())}  \PYG{c+c1}{\PYGZsh{} Зчитуємо наступне число для наступної}
+                      \PYG{c+c1}{\PYGZsh{} ітерації циклу}
+
+\PYG{c+c1}{\PYGZsh{} Підбиття підсумків після виходу з циклу}
+\PYG{k}{if} \PYG{n}{k} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Якщо жодного простого числа не було введено}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Простих чисел немає\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{c+c1}{\PYGZsh{} Обчислюємо та виводимо середнє арифметичне (сума/кількість)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Середнє арифметичне простих:\PYGZdq{}}\PYG{p}{,} \PYG{n}{S} \PYG{o}{/} \PYG{n}{k}\PYG{p}{)}
+\end{MintedVerbatim}

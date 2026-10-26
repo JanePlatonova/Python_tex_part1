@@ -1,0 +1,5 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{Синтаксис} \PYG{n}{циклу} \PYG{k}{for}
+\PYG{k}{for} \PYG{n}{параметр} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{start}\PYG{p}{,} \PYG{n}{stop}\PYG{p}{,} \PYG{n}{step}\PYG{p}{):}
+    \PYG{n}{блок\PYGZus{}операторів}
+\end{MintedVerbatim}

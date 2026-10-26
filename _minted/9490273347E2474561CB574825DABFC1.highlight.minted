@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{random}
+\PYG{c+c1}{\PYGZsh{} Моделювання кидка грального кубика (від 1 до 6)}
+\PYG{n}{dice} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Випало число:\PYGZdq{}}\PYG{p}{,} \PYG{n}{dice}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Випадкове парне число від 10 до 98}
+\PYG{n}{even\PYGZus{}num} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{randrange}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{100}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Парне число:\PYGZdq{}}\PYG{p}{,}\PYG{n}{even\PYGZus{}num}\PYG{p}{)}
+\end{MintedVerbatim}

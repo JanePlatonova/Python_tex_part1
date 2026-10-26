@@ -1,0 +1,14 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{Структура} \PYG{n}{керування} \PYG{n}{циклом} \PYG{k}{while}
+\PYG{k}{while} \PYG{n}{вираз\PYGZus{}умови\PYGZus{}test}\PYG{p}{:}
+    \PYG{n}{блок\PYGZus{}операторів\PYGZus{}1}
+    \PYG{k}{if} \PYG{n}{умова\PYGZus{}1}\PYG{p}{:}
+        \PYG{k}{break}     \PYG{c+c1}{\PYGZsh{} вийти з циклу, пропустивши else}
+    \PYG{k}{if} \PYG{n}{умова\PYGZus{}2}\PYG{p}{:}
+        \PYG{k}{continue}  \PYG{c+c1}{\PYGZsh{} перейти на початок циклу до}
+                  \PYG{c+c1}{\PYGZsh{}виразу\PYGZus{}умови\PYGZus{}test}
+    \PYG{n}{блок\PYGZus{}операторів\PYGZus{}2}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n}{оператори\PYGZus{}else} \PYG{c+c1}{\PYGZsh{} виконуються, якщо вираз\PYGZus{}умови}
+                   \PYG{c+c1}{\PYGZsh{} став False (без break)}
+\end{MintedVerbatim}

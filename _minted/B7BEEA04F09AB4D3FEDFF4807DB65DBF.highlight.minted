@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{n} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Введіть n \PYGZdq{}}\PYG{p}{))}
+\PYG{n}{s} \PYG{o}{=} \PYG{l+m+mi}{0}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{n} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{):}
+    \PYG{n}{s} \PYG{o}{+=} \PYG{n}{i}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Сума чисел від 1 до }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{n}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ дорівнює: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{s}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

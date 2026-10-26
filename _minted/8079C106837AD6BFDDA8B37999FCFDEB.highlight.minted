@@ -1,0 +1,4 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mi}{15}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nb}{oct}\PYG{p}{(}\PYG{n}{x}\PYG{p}{))}   \PYG{c+c1}{\PYGZsh{} \PYGZsq{}0o17\PYGZsq{}}
+\end{MintedVerbatim}

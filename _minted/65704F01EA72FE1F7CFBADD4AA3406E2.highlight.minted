@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{A}\PYG{o}{=}\PYG{n+nb}{input}\PYG{p}{()}
+\PYG{n}{B}\PYG{o}{=}\PYG{n+nb}{input}\PYG{p}{()}
+\PYG{k}{if} \PYG{n}{A}\PYG{o}{\PYGZgt{}}\PYG{n}{B}\PYG{p}{:} \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}А більше\PYGZdq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{}можна писати у тому ж рядку 1 оп\PYGZhy{}р}
+\PYG{k}{elif} \PYG{n}{A}\PYG{o}{==}\PYG{n}{B}\PYG{p}{:} \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}А дорівнює В\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:} \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}А менше В\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

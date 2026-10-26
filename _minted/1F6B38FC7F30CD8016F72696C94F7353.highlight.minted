@@ -1,0 +1,20 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Розклад e\PYGZca{}x = 1 + x + x\PYGZca{}2/2! + ... + x\PYGZca{}n/n! + ...}
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{math}
+\PYG{c+c1}{\PYGZsh{} Початкові дані та параметри}
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{1.0}       \PYG{c+c1}{\PYGZsh{} Значення x, для якого обчислюємо e\PYGZca{}x}
+\PYG{n}{eps} \PYG{o}{=} \PYG{l+m+mf}{1e\PYGZhy{}9}    \PYG{c+c1}{\PYGZsh{} Точність обчислень (10\PYGZca{}\PYGZhy{}9)}
+\PYG{n}{s} \PYG{o}{=} \PYG{l+m+mf}{0.0}       \PYG{c+c1}{\PYGZsh{} Змінна для накопичення суми ряду}
+\PYG{n}{term} \PYG{o}{=} \PYG{l+m+mf}{1.0}    \PYG{c+c1}{\PYGZsh{} Перший доданок ряду (при n = 0, x\PYGZca{}0 / 0! = 1)}
+\PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{1}         \PYG{c+c1}{\PYGZsh{} Лічильник ітерацій та порядковий номер}
+\PYG{c+c1}{\PYGZsh{}наступного додатка}
+
+\PYG{c+c1}{\PYGZsh{} Цикл виконується, поки модуль поточного доданка більший за}
+\PYG{c+c1}{\PYGZsh{}задану точність eps}
+\PYG{k}{while} \PYG{n+nb}{abs}\PYG{p}{(}\PYG{n}{term}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{n}{eps}\PYG{p}{:}
+    \PYG{n}{s} \PYG{o}{+=} \PYG{n}{term}           \PYG{c+c1}{\PYGZsh{} Додаємо поточний доданок до  суми}
+    \PYG{n}{term} \PYG{o}{=} \PYG{n}{term} \PYG{o}{*} \PYG{n}{x} \PYG{o}{/} \PYG{n}{i} \PYG{c+c1}{\PYGZsh{} Обчислюємо наступний доданок}
+    \PYG{n}{i} \PYG{o}{+=} \PYG{l+m+mi}{1}              \PYG{c+c1}{\PYGZsh{} Збільшуємо номер ітерації на 1}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Сума s = }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{s}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Ітерацій: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{i}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{k+kc}{True}\PYG{p}{:}
+    \PYG{k}{pass}  \PYG{c+c1}{\PYGZsh{} інструкції будуть написані пізніше}
+
+\PYG{k}{while} \PYG{k+kc}{True}\PYG{p}{:}
+    \PYG{k}{pass}  \PYG{c+c1}{\PYGZsh{} порожній нескінченний цикл}
+\end{MintedVerbatim}

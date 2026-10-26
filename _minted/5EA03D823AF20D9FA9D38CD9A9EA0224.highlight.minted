@@ -1,0 +1,11 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{Багатогілкова} \PYG{n}{форма}
+\PYG{k}{if} \PYG{n}{вираз\PYGZus{}умова1}\PYG{p}{:}
+    \PYG{n}{Блок\PYGZus{}операторів\PYGZus{}1}
+\PYG{k}{elif} \PYG{n}{вираз\PYGZus{}умова2}\PYG{p}{:}
+    \PYG{n}{Блок\PYGZus{}операторів\PYGZus{}2}
+\PYG{k}{elif} \PYG{n}{вираз\PYGZus{}умова\PYGZus{}n}\PYG{p}{:}
+    \PYG{n}{Блок\PYGZus{}операторів\PYGZus{}n}
+\PYG{k}{else}\PYG{p}{:}
+   \PYG{n}{Блок\PYGZus{}операторів\PYGZus{}n}\PYG{o}{+}\PYG{l+m+mi}{1}
+\end{MintedVerbatim}

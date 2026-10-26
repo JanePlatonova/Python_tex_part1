@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Некоректний код}
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{0.0}
+\PYG{k}{while} \PYG{n}{x} \PYG{o}{!=} \PYG{l+m+mf}{1.0}\PYG{p}{:}\PYG{c+c1}{\PYGZsh{} умова не перестане виконуватись ніколи}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}x = }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{x}\PYG{l+s+si}{:}\PYG{l+s+s2}{.1f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{n}{x} \PYG{o}{+=} \PYG{l+m+mf}{0.3}
+
+\PYG{c+c1}{\PYGZsh{} Правильний варіант:}
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mf}{0.0}
+\PYG{k}{while} \PYG{n}{x} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{1.0}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}x = }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{x}\PYG{l+s+si}{:}\PYG{l+s+s2}{.1f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+    \PYG{n}{x} \PYG{o}{+=} \PYG{l+m+mf}{0.3}
+\end{MintedVerbatim}

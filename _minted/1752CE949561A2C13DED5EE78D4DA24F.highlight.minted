@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{s} \PYG{o}{=} \PYG{l+m+mf}{0.0}
+\PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{())}
+\PYG{k}{while} \PYG{n}{x} \PYG{o}{!=} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{n}{s} \PYG{o}{+=} \PYG{n}{x}
+    \PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{())}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Сума =\PYGZdq{}}\PYG{p}{,} \PYG{n}{s}\PYG{p}{)}
+\end{MintedVerbatim}

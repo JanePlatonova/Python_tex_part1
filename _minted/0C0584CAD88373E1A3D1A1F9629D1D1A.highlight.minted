@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{x} \PYG{o}{=} \PYG{l+m+mi}{4}
+\PYG{n}{s1} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Hello\PYGZdq{}}
+\PYG{n}{\PYGZus{}x} \PYG{o}{=} \PYG{k+kc}{True}
+\PYG{n}{x2} \PYG{o}{=} \PYG{l+m+mf}{23.46}
+\PYG{n}{summa1} \PYG{o}{=} \PYG{n}{summa2} \PYG{o}{=} \PYG{n}{k} \PYG{o}{=} \PYG{l+m+mi}{0}
+\end{MintedVerbatim}

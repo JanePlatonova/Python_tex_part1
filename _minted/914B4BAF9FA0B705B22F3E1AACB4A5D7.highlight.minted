@@ -1,0 +1,7 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Двері відчинені? \PYGZdq{}}\PYG{p}{)}
+\PYG{k}{while} \PYG{n}{x}\PYG{o}{.}\PYG{n}{lower}\PYG{p}{()} \PYG{o}{!=} \PYG{l+s+s2}{\PYGZdq{}так\PYGZdq{}}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}стукаємо\PYGZdq{}}\PYG{p}{)}
+    \PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Двері відчинені? \PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Заходимо\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

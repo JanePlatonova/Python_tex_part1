@@ -1,0 +1,20 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{s}\PYG{o}{=}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Введіть пору року\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{if} \PYG{n}{s}\PYG{o}{==}\PYG{l+s+s2}{\PYGZdq{}зима\PYGZdq{}}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}грудень\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}січень\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}лютий\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{elif} \PYG{n}{s}\PYG{o}{==}\PYG{l+s+s2}{\PYGZdq{}весна\PYGZdq{}}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}березень\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}квітень\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}травень\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{elif} \PYG{n}{s}\PYG{o}{==}\PYG{l+s+s2}{\PYGZdq{}літо\PYGZdq{}}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}червень\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}липень\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}серпень\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}вересень\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}жовтень \PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}листопад\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print} \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}До побачення\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{Повна} \PYG{n}{форма}
+\PYG{k}{if} \PYG{n}{вираз\PYGZus{}умова1}\PYG{p}{:}
+    \PYG{n}{оператор1}
+    \PYG{n}{оператор2}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n}{Блок\PYGZus{}операторів\PYGZus{}3}
+\end{MintedVerbatim}

@@ -1,0 +1,8 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{Дорівнює}\PYG{p}{:}                \PYG{n}{a} \PYG{o}{==} \PYG{n}{b}
+\PYG{n}{Не} \PYG{n}{дорівнює}\PYG{p}{:}             \PYG{n}{a} \PYG{o}{!=} \PYG{n}{b}
+\PYG{n}{Менше} \PYG{n}{ніж}\PYG{p}{:}               \PYG{n}{a} \PYG{o}{\PYGZlt{}} \PYG{n}{b}
+\PYG{n}{Менше} \PYG{n}{або} \PYG{n}{дорівнює}\PYG{p}{:}     \PYG{n}{a} \PYG{o}{\PYGZlt{}=} \PYG{n}{b}
+\PYG{n}{Більше} \PYG{n}{ніж}\PYG{p}{:}              \PYG{n}{a} \PYG{o}{\PYGZgt{}} \PYG{n}{b}
+\PYG{n}{Більше} \PYG{n}{або} \PYG{n}{дорівнює}\PYG{p}{:}    \PYG{n}{a} \PYG{o}{\PYGZgt{}=} \PYG{n}{b}
+\end{MintedVerbatim}

@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{x} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Введіть число: \PYGZdq{}}\PYG{p}{))}
+\PYG{k}{if} \PYG{p}{(}\PYG{n}{x} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{2} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{o+ow}{and} \PYG{p}{(}\PYG{n}{x} \PYG{o}{\PYGZgt{}=} \PYG{l+m+mi}{10} \PYG{o+ow}{and} \PYG{n}{x} \PYG{o}{\PYGZlt{}=} \PYG{l+m+mi}{20}\PYG{p}{):}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Число належить до множини парних чисел}
+     \PYG{n}{у} \PYG{n}{діапазоні} \PYG{p}{[}\PYG{l+m+mi}{10}\PYG{p}{;}\PYG{l+m+mi}{20}\PYG{p}{]}\PYG{l+s+s2}{\PYGZdq{})}
+\end{MintedVerbatim}

@@ -1,0 +1,23 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{N} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}N = \PYGZsq{}}\PYG{p}{))}  \PYG{c+c1}{\PYGZsh{} Зчитуємо натуральне число}
+\PYG{n}{temp} \PYG{o}{=} \PYG{n}{N}                \PYG{c+c1}{\PYGZsh{} Створюємо тимчасову копію числа,}
+\PYG{c+c1}{\PYGZsh{} щоб не змінювати оригінальне N}
+
+\PYG{c+c1}{\PYGZsh{} Цикл триває, поки у тимчасовій змінній залишаються цифри}
+\PYG{c+c1}{\PYGZsh{}(число більше 0)}
+\PYG{k}{while} \PYG{n}{temp} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+    \PYG{n}{x} \PYG{o}{=} \PYG{n}{temp} \PYG{o}{\PYGZpc{}} \PYG{l+m+mi}{10}   \PYG{c+c1}{\PYGZsh{} Отримуємо останню цифру числа}
+                    \PYG{c+c1}{\PYGZsh{}(остача від ділення на 10)}
+
+    \PYG{k}{if} \PYG{n}{x} \PYG{o}{==} \PYG{l+m+mi}{4}\PYG{p}{:}      \PYG{c+c1}{\PYGZsh{} Перевіряємо, чи дорівнює ця цифра 4}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Є 4\PYGZsq{}}\PYG{p}{)}\PYG{c+c1}{\PYGZsh{}Виводимо повідомлення, що цифру 4 знайдено}
+        \PYG{k}{break}   \PYG{c+c1}{\PYGZsh{} Достроково перериваємо цикл,}
+                \PYG{c+c1}{\PYGZsh{} оскільки перевіряти далі немає потреби}
+    \PYG{c+c1}{\PYGZsh{}Відкидаємо останню цифру}
+    \PYG{n}{temp} \PYG{o}{//=} \PYG{l+m+mi}{10}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{}(цілочисельне ділення на 10)}
+
+\PYG{k}{else}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Блок else виконується лише тоді,}
+   \PYG{c+c1}{\PYGZsh{} коли цикл while завершився природним шляхом}
+   \PYG{c+c1}{\PYGZsh{} (тобто temp стало \PYGZlt{}= 0), і не був перерваний break}
+   \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Немає 4\PYGZsq{}}\PYG{p}{)}
+\end{MintedVerbatim}

@@ -1,0 +1,4 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{if} \PYG{n}{length} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{8} \PYG{o+ow}{and} \PYG{n}{length} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{20}\PYG{p}{:}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Довжина відповідає вимогам\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

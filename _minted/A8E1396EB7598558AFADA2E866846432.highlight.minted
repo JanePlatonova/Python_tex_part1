@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}\PYG{n}{z1}\PYG{o}{=}\PYG{l+m+mi}{2}\PYG{o}{+}\PYG{l+m+mi}{3}\PYG{n}{j}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}\PYG{n}{z2}\PYG{o}{=}\PYG{l+m+mi}{4}\PYG{o}{+}\PYG{l+m+mi}{8}\PYG{n}{J}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}}\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{z1}\PYG{p}{,} \PYG{n}{z2}\PYG{p}{)}
+\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{o}{+}\PYG{l+m+mi}{3}\PYG{n}{j}\PYG{p}{)} \PYG{p}{(}\PYG{l+m+mi}{4}\PYG{o}{+}\PYG{l+m+mi}{8}\PYG{n}{j}\PYG{p}{)}
+\end{MintedVerbatim}

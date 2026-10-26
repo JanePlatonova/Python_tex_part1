@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{random}
+\PYG{c+c1}{\PYGZsh{} Випадкове число від 0.0 до 1.0}
+\PYG{n}{p} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{random}\PYG{p}{()}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Імовірність\PYGZdq{}}\PYG{p}{,}\PYG{n}{p}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Випадкова температура в межах [\PYGZhy{}5.0, 15.0]}
+\PYG{n}{temp} \PYG{o}{=} \PYG{n}{random}\PYG{o}{.}\PYG{n}{uniform}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{5.0}\PYG{p}{,} \PYG{l+m+mf}{15.0}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Температура:\PYGZdq{}}\PYG{p}{,} \PYG{n}{temp}\PYG{p}{)}
+\end{MintedVerbatim}

@@ -1,0 +1,15 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{math}
+
+\PYG{n}{a} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Введіть початок відрізка a \PYGZdq{}}\PYG{p}{))}
+\PYG{n}{b} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Введіть кінець відрізка b \PYGZdq{}}\PYG{p}{))}
+\PYG{n}{n} \PYG{o}{=} \PYG{l+m+mi}{10}
+\PYG{n}{h} \PYG{o}{=} \PYG{p}{(}\PYG{n}{b} \PYG{o}{\PYGZhy{}} \PYG{n}{a}\PYG{p}{)} \PYG{o}{/} \PYG{n}{n}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{} x | sin(x)\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{n} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{):}
+    \PYG{n}{x} \PYG{o}{=} \PYG{n}{a} \PYG{o}{+} \PYG{n}{i} \PYG{o}{*} \PYG{n}{h}
+    \PYG{n}{y} \PYG{o}{=} \PYG{n}{math}\PYG{o}{.}\PYG{n}{sin}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{x}\PYG{l+s+si}{:}\PYG{l+s+s2}{6.2f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ | }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{y}\PYG{l+s+si}{:}\PYG{l+s+s2}{6.4f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

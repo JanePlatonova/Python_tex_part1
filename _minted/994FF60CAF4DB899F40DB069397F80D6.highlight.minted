@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nb}{print} \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Привіт\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{price1} \PYG{o}{=} \PYG{l+m+mi}{50} \PYG{c+c1}{\PYGZsh{}price1=int(input())}
+\PYG{n}{price2} \PYG{o}{=} \PYG{l+m+mi}{32} \PYG{c+c1}{\PYGZsh{}price2=int(input())}
+\PYG{k}{if} \PYG{n}{price1}\PYG{o}{+} \PYG{n}{price2} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{99} \PYG{p}{:}
+    \PYG{n+nb}{print} \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Сума не достатня\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{else}\PYG{p}{:}
+    \PYG{n+nb}{print} \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Чек оплачений\PYGZdq{}}\PYG{p}{)}
+    \PYG{n+nb}{print} \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}До побачення\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}
