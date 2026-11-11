@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{x}\PYG{o}{=}\PYG{l+m+mi}{4}\PYG{o}{+}\PYG{l+m+mi}{5} \PYG{o}{\PYGZpc{}} \PYG{n}{Присвоєння}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}
+\PYG{n}{s}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Hello \PYGZdq{}}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}World\PYGZdq{}}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)}
+\PYG{n}{s}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Helo\PYGZdq{}}\PYG{o}{+}\PYGZbs{}
+\PYG{l+s+s2}{\PYGZdq{}World\PYGZdq{}} \PYG{o}{\PYGZpc{}} \PYG{n}{Перенесення} \PYG{n}{довгих} \PYG{n}{операторів}
+\end{Verbatim}
